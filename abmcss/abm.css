@@ -121,6 +121,8 @@
   box-sizing: border-box;
 }
 
+body {margin: 0 auto;}
+
 .max-width-1{max-width: 1600px;}
 .max-width-2{max-width: 1200px;}
 .max-width-3{max-width: 992px;}
@@ -200,10 +202,18 @@
 }
 
 /*border radius*/
-.border-1{border-radius: 1px;}
-.border-2{ border-radius: 2px;}
-.border-3{ border-radius: 3px;}
-.border-4{border-radius: 4px;}
+.radius-1{border-radius: 1px;}
+.radius-2{border-radius: 2px;}
+.radius-3{border-radius: 3px;}
+.radius-4{border-radius: 4px;}
+.radius-5{border-radius: 5px;}
+.radius-6{border-radius: 6px;}
+.radius-7{border-radius: 7px;}
+.radius-8{border-radius: 8px;}
+.radius-9{border-radius: 9px;}
+.radius-10{border-radius: 10px;}
+.radius-15{border-radius: 15px;}
+.radius-20{border-radius: 20px;}
 
 /*padding options as pixels*/
 .p-1{padding: 1px;}
@@ -211,6 +221,28 @@
 .p-3{padding: 3px;}
 .p-4{padding: 4px;}
 .p-5{padding: 5px;}
+
+/*padding left options as pixels*/
+.pl-1{padding-left: 1px;}
+.pl-2{padding-left: 2px;}
+.pl-3{padding-left: 3px;}
+.pl-4{padding-left: 4px;}
+.pl-5{padding-left: 5px;}
+
+
+/* Margin options as pixels*/
+.m-1{margin: 1px;}
+.m-2{margin: 2px;}
+.m-3{margin: 3px;}
+.m-4{margin: 4px;}
+.m-5{margin: 5px;}
+
+/* Margin top options as pixels*/
+.mt-1{margin-top: 1px;}
+.mt-2{margin-top: 2px;}
+.mt-3{margin-top: 3px;}
+.mt-4{margin-top: 4px;}
+.mt-5{margin-top: 5px;}
 
 /*basic height definitions*/
 .vh-1{height: 10px;}
@@ -256,3 +288,26 @@
 }
 
 .logo{width: 64px; height: 64px;}
+
+.vertical-navbar
+{
+  width: 100%;
+}
+
+.vertical-navbar a
+{
+  display: block; /* Make the links appear below each other */
+  text-decoration: none; /* Remove underline from links */
+  padding: 5px;
+}
+
+.vertical-navbar a:hover {
+  text-decoration: underline;
+}
+
+.text-black{color: black;}
+.text-white{color: white;}
+
+.shadow-1{box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+.shadow-1{box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+.shadow-1{box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}

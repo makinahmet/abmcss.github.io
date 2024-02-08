@@ -240,6 +240,9 @@ body {margin: 0 auto;}
 .p-3{padding: 3px;}
 .p-4{padding: 4px;}
 .p-5{padding: 5px;}
+.p-10{padding: 10px;}
+.p-15{padding: 15px;}
+.p-20{padding: 20px;}
 
 /*padding left options as pixels*/
 .pl-1{padding-left: 1px;}
@@ -285,6 +288,10 @@ body {margin: 0 auto;}
 .vh-3{height: 30px;}
 .vh-4{height: 40px;}
 .vh-5{height: 50px;}
+.vh-10{height: 100px;}
+.vh-20{height: 200px;}
+.vh-30{height: 300px;}
+.vh-40{height: 400px;}
 
 .justify-content-center
 {
@@ -361,5 +368,8 @@ body {margin: 0 auto;}
 .btn-dark:hover{filter: brightness(.9);}
 .btn-light:hover{filter:brightness(1.1);}
 .btn-shadow:hover{box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.19);}
+.btn-outline:hover{box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.19);}
 
 .bg-transparent{background-color: transparent;}
+
+.card-image{overflow: hidden; padding: 5px;}

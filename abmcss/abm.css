@@ -298,6 +298,27 @@ body {margin: 0 auto;}
 .mb-15{margin-bottom: 15px;}
 .mb-20{margin-bottom: 20px;}
 
+/* Margin left options as pixels*/
+.ml-1{margin-left: 1px;}
+.ml-2{margin-left: 2px;}
+.ml-3{margin-left: 3px;}
+.ml-4{margin-left: 4px;}
+.ml-5{margin-left: 5px;}
+.ml-10{margin-left: 10px;}
+.ml-15{margin-left: 15px;}
+.ml-20{margin-left: 20px;}
+
+/* Margin left options as pixels*/
+.mr-1{margin-right: 1px;}
+.mr-2{margin-right: 2px;}
+.mr-3{margin-right: 3px;}
+.mr-4{margin-right: 4px;}
+.mr-5{margin-right: 5px;}
+.mr-10{margin-right: 10px;}
+.mr-15{margin-right: 15px;}
+.mr-20{margin-right: 20px;}
+
+
 /*basic height definitions*/
 .vh-1{height: 10px;}
 .vh-2{height: 20px;}
@@ -402,13 +423,25 @@ body {margin: 0 auto;}
 
 .input-text{
   width: 100%;
-  border: 1px solid;
   border-radius: 5px;
-  height: 25px;
+  padding: 5px;
+}
+
+.input-text:focus{
+  outline: none;
+  box-shadow: 0 0 3px 1px gray;
 }
 .input-password{
   width: 100%;
-  border: 1px solid;
   border-radius: 5px;
-  height: 25px;
+  padding: 5px;
+}
+
+.input-password:focus{
+  outline: none;
+  box-shadow: 0 0 3px 1px gray;
+}
+
+.no-decoration{
+  text-decoration: none;
 }

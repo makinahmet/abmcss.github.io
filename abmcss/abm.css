@@ -418,7 +418,8 @@ body {margin: 0 auto;}
 
 .image
 {
-  width: inherit;
+  height: 100%;
+  width: 100%;
 }
 
 .input-text{

@@ -16,17 +16,8 @@
         <!-- CONTENT -->
         <div class="row flex-container">
             <div class="col-2 justify-content-center">
-                <div class="vertical-navbar mt-10">
-                    <b>HOME</b>
-                    <a class="text-black" href="index.html">Get Started</a>
-                    <a class="text-black" href="grids.html">Grids</a>
-                    <a class="text-black" href="colorPallettes.html">Color Pallettes</a>
-                    <hr>
-                    <b>COMPONENTS</b>
-                    <a class="text-black" href="buttons.html">Buttons</a>
-                    <a class="text-black" href="cards.html">Cards</a>
-                    <a class="text-black" href="navbar.html">Navbars</a>
-                    <a class="text-black" href="forms.html">Forms</a>
+                <div id="leftMenu" class="vertical-navbar col-12 mt-10">
+                    <script src="js/menu.js"></script>
                 </div>
             </div>
             <div class="col-10 p-10">
@@ -100,9 +91,139 @@
                 <hr>
                 <div class="row mt-10">
                     <span class="fs-l">
-                        Sticky navbars
+                        <b>Sticky navbars</b>
                     </span>
                 </div>
+                <div class="row mt-10">
+                    <span class="fs-l">
+                        You can stick navbars to top or bottom of the page. If you want to stick your navbar to top of the page,
+                        just add <b>stick-top</b> to your navbar. If you want to stick your navbar to bottom of the page,
+                        just add <b>stick-bottom</b> to your navbar. 
+                    </span>
+                </div>
+                <div class="row mt-10">
+                    <span class="fs-l">
+                        <b>stick-top</b>
+                    </span>
+                </div>
+                <div class="row mt-10">
+                    <textarea class="bg-green-2 radius-5 col-12" rows="20" wrap="off">
+<!-- Navbar start -->
+<div class="navbar col-12 radius-5 vertical-align-center bg-green-2 stick-top">
+    <!-- Navbar logo or brand -->
+    <div class="col-2 justify-content-center p-20">
+        <img class="image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+    </div>
+    <!-- Navbar rest -->
+    <div class="col-10 flex-container vertical-align-center">
+        <!-- Navbar inline menu -->
+        <div class="col-7">
+            <a href="" class="no-decoration text-black fs-l ml-10">HOME</a>
+            <a href="" class="no-decoration text-black fs-l ml-10">ABOUT</a>
+            <a href="" class="no-decoration text-black fs-l ml-10">CONTACT</a>
+        </div>
+        <!-- Search box -->
+        <div class="col-5 align-col-right flex-container vertical-align-center p-5">
+            <div class="col-9 justify-content-center">
+                <input type="text" class="input-text bg-green-3 m-5 border-none" placeholder="E-mail address">
+            </div>
+            <div class="col-3">
+                <button class="col-12 btn-dark fs-l radius-5 bg-green-3 border-green-3">Search</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Navbar end -->
+                    </textarea>  
+                </div>
+
+                <div class="row mt-10">
+                    <span class="fs-l">
+                        <b>stick-bottom</b>
+                    </span>
+                </div>
+                <div class="row mt-10">
+                    <textarea class="bg-green-2 radius-5 col-12" rows="20" wrap="off">
+<!-- Navbar start -->
+<div class="navbar col-12 radius-5 vertical-align-center bg-green-2 stick-bottom">
+    <!-- Navbar logo or brand -->
+    <div class="col-2 justify-content-center p-20">
+        <img class="image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+    </div>
+    <!-- Navbar rest -->
+    <div class="col-10 flex-container vertical-align-center">
+        <!-- Navbar inline menu -->
+        <div class="col-7">
+            <a href="" class="no-decoration text-black fs-l ml-10">HOME</a>
+            <a href="" class="no-decoration text-black fs-l ml-10">ABOUT</a>
+            <a href="" class="no-decoration text-black fs-l ml-10">CONTACT</a>
+        </div>
+        <!-- Search box -->
+        <div class="col-5 align-col-right flex-container vertical-align-center p-5">
+            <div class="col-9 justify-content-center">
+                <input type="text" class="input-text bg-green-3 m-5 border-none" placeholder="E-mail address">
+            </div>
+            <div class="col-3">
+                <button class="col-12 btn-dark fs-l radius-5 bg-green-3 border-green-3">Search</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Navbar end -->
+                    </textarea>  
+                </div>
+
+                <hr>
+
+                <div class="row mt-10">
+                    <span class="fs-l">
+                        <b>VERTICAL NAVBARS</b>
+                    </span>
+                </div>
+                <div class="row mt-10">
+                    <span class="fs-l">
+                        You can design vertical navbasrs very easily.
+                        Below you can see ABMCSS left vertical menu as an example.
+                    </span>
+                </div>
+
+
+                <div class="vertical-navbar mt-10 bg-green-2 col-2 p-10 radius-5">
+                    <b>HOME</b>
+                    <a class="text-black" href="index.html">Get Started</a>
+                    <a class="text-black" href="grids.html">Grids</a>
+                    <a class="text-black" href="colorPallettes.html">Color Pallettes</a>
+                    <hr>
+                    <b>COMPONENTS</b>
+                    <a class="text-black" href="buttons.html">Buttons</a>
+                    <a class="text-black" href="cards.html">Cards</a>
+                    <a class="text-black" href="navbar.html">Navbars</a>
+                    <a class="text-black" href="forms.html">Forms</a>
+                </div>
+
+                <div class="row">
+<textarea class="row bg-green-2 mt-10 radius-5" rows="20" wrap="off">
+<div class="vertical-navbar mt-10 bg-green-2 col-2 p-10 radius-5">
+    <b>HOME</b>
+    <a class="text-black" href="index.html">Get Started</a>
+    <a class="text-black" href="grids.html">Grids</a>
+    <a class="text-black" href="colorPallettes.html">Color Pallettes</a>
+    <hr>
+    <b>COMPONENTS</b>
+    <a class="text-black" href="buttons.html">Buttons</a>
+    <a class="text-black" href="cards.html">Cards</a>
+    <a class="text-black" href="navbar.html">Navbars</a>
+    <a class="text-black" href="forms.html">Forms</a>
+</div>
+</textarea>
+                </div>
+
+                <div class="row mt-10">
+                    <span class="fs-l">
+                        You can change colors, width, and other things as you wish. Lets add some icons to our links.
+                    </span>
+                </div>
+
             </div>
         </div>
         <!-- CONTENT -->

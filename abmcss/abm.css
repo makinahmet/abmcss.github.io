@@ -238,6 +238,14 @@ body {margin: 0 auto;}
 
   .align-col-center{position: relative;}
   .align-col-right{position: relative;}
+
+  .flex-container{
+    display: block;
+  }
+
+  .navbar-logo{
+    max-width: 50%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -471,8 +479,7 @@ body {margin: 0 auto;}
 .fs-xl{font-size: x-large;}
 .fs-xxl{font-size: xx-large;}
 
-.font-arial{font-family: Arial, sans-serif;}
-
+.btn{font-size: clamp(10px, 2vw, 20px); padding: 0; min-height: 25px;}
 .btn-dark:hover{filter: brightness(.9);}
 .btn-light:hover{filter:brightness(1.1);}
 .btn-shadow:hover{box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.19);}

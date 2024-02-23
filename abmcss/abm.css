@@ -517,3 +517,13 @@ body {margin: 0 auto;}
   bottom: 0;
   z-index: 100;
 }
+
+.collapsible:not([open]){
+  max-height: 50px;
+}
+
+.collapsible[open]{
+  overflow: hidden;
+  max-height: 100%;
+  transition: all 500ms;
+}

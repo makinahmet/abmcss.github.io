@@ -61,6 +61,7 @@ Forms
     </svg>
 Collapsibles
 </a>
+<a class="text-black" href="alerts.html">Alerts</a>
 <hr>`;
 
 var leftMenu = document.getElementById("leftMenu");

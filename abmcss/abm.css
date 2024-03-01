@@ -437,7 +437,7 @@ body {margin: 0 auto;}
 }
 
 .text-black{color: black;}
-.text-white{color: white;}
+.text-white * {color: white;}
 .text-gray{color: var(--black-3);}
 
 .shadow-1{box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}

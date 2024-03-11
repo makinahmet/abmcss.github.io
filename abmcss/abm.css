@@ -589,37 +589,3 @@ body {margin: 0 auto;}
 .tooltip:hover .tooltipBottom{
   visibility: visible;
 }
-
-.modal-background {
-	width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9998;
-  display: none;
-}
-
-.modal {
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  z-index: 9999;
-  display: none;
-}
-
-.modal input[type="checkbox"] {
-	display: none;
-}
-input[type="checkbox"]:checked ~ .modal,
-input[type="checkbox"]:checked ~ .modal-background {
-	display: block;
-}
-
-.fit-content{
-  height: fit-content;
-}

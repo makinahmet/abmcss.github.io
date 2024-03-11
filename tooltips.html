@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="abmcss/abm.css">
+    </head>
+
+    <body class="max-width-2 mt-5">
+        <!-- NAVBAR -->
+        <div class="row flex-container bg-green-4 radius-5 shadow-3">
+            <div class="col-2 justify-content-center vertical-align-center"><img class="logo" src="images/abmLogo.png"></div>
+            <div class="col-10 justify-content-center vertical-align-center"><span class="fs-xxl text-white">This page is made with ABMCSS</span></div>
+        </div>
+        <!-- NAVBAR -->
+
+        <!-- CONTENT -->
+        <div class="row flex-container">
+            <div class="col-2 justify-content-center">
+                <div id="leftMenu" class="vertical-navbar col-12 mt-10">
+                    <script src="js/menu.js"></script>
+                </div>
+            </div>
+            <div class="col-10 p-10">
+                <div class="row">
+                    <span class="fs-xl">
+                        <b>TOOLTIPS</b>
+                    </span>
+                </div>
+                <div class="row mt-5">
+                    <span class="fs-l">
+                        Tooltips are very useful to inform users when they hover to an element. In ABMCSS tooltips have 
+                        standart <b>200 px width</b> because positioning the tooltip element as absolute.<br />
+                        <br />
+                        To have an tooltip you need to assign <b>tooltip</b> class to parent element and assign
+                        <b>tooltipTop</b> or <b>tooltipRight</b> or <b>tooltipLeft</b> or <b>tooltipBottom</b> to child element.
+                        You can still change all others properties of tooltip except its width. 
+                    </span>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="bg-red-1 p-10 border border-red-3 radius-5 fs-l justify-content-center">
+                        when using tooltips, becaraful on mobile devices. Just use top tooltips and bottom tooltips. 
+                        If you use left or right tooltips, probably they wont appear to user.
+                    </div>
+                </div>
+                <hr>
+
+                <div class="row flex-container mt-10">
+                    <div class="tooltip justify-content-center col-2 bg-green-3 vh-5 radius-5">
+                        Top tooltip
+                        <span class="tooltipTop bg-blue-1 radius-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="col-9 align-col-right">
+                        <textarea class="row bg-green-3 radius-5" wrap="off" rows="7">
+<div class="tooltip justify-content-center col-2 bg-green-3 vh-5 radius-5">
+    Top tooltip
+    <span class="tooltipTop bg-blue-1 radius-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+</div>
+                        </textarea>
+                    </div>
+                </div>
+                
+                <div class="row flex-container mt-10">
+                    <div class="tooltip justify-content-center col-2 bg-green-3 vh-5 radius-5">
+                        Right tooltip
+                        <span class="tooltipRight bg-blue-1 radius-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="col-9 align-col-right">
+                        <textarea class="row bg-green-3 radius-5" wrap="off" rows="7">
+<div class="tooltip justify-content-center col-2 bg-green-3 vh-5 radius-5">
+    Right tooltip
+    <span class="tooltipRight bg-blue-1 radius-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+</div>
+                        </textarea>
+                    </div>
+                </div>
+
+                <div class="row flex-container mt-10">
+                    <div class="tooltip justify-content-center col-2 bg-green-3 vh-5 radius-5">
+                        Left tooltip
+                        <span class="tooltipLeft bg-blue-1 radius-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="col-9 align-col-right">
+                        <textarea class="row bg-green-3 radius-5" wrap="off" rows="7">
+<div class="tooltip justify-content-center col-2 bg-green-3 vh-5 radius-5">
+    Left tooltip
+    <span class="tooltipLeft bg-blue-1 radius-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+</div>
+                        </textarea>
+                    </div>
+                </div>
+
+                <div class="row flex-container mt-10">
+                    <div class="tooltip justify-content-center col-2 bg-green-3 vh-5 radius-5">
+                        Bottom tooltip
+                        <span class="tooltipBottom bg-blue-1 radius-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="col-9 align-col-right">
+                        <textarea class="row bg-green-3 radius-5" wrap="off" rows="7">
+<div class="tooltip justify-content-center col-2 bg-green-3 vh-5 radius-5">
+    Bottom tooltip
+    <span class="tooltipBottom bg-blue-1 radius-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+</div>
+                        </textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTENT -->
+
+        <!-- FOOTER -->
+        <div class="row flex-container">
+            <div class="col-12 justify-content-center vertical-align-center vh-5 bg-green-4 radius-5 shadow-3">
+                <span> Open source CSS modules made by Ahmet MISIR :D <br/> <a class="text-white" href="template.html">Empty Template</a></span>
+            </div>
+        </div>
+        <!-- FOOTER -->
+    </body>
+</html>

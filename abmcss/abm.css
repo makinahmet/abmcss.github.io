@@ -90,6 +90,25 @@ body {margin: 0 auto;}
 .bg-white-4{background-color: var(--white-4);}
 
 
+.border
+{
+  border-style: solid;
+  border-width: 1px;
+}
+
+.border-2
+{
+  border-style: solid;
+  border-width: 2px;
+}
+
+.border-3
+{
+  border-style: solid;
+  border-width: 3px;
+}
+.border-none{border: none;}
+
 /*Border colors*/
 .border-red-0{border-color: var(--red-0);}
 .border-red-1{border-color: var(--red-1);}
@@ -185,14 +204,12 @@ body {margin: 0 auto;}
 .align-col-center
 {
   position: absolute;
-  left: 50%; 
-  transform: 
-  translate(-50%);
+  left: 50%;
+  transform: translate(-50%);
 }
 .align-col-right
 {
-  position: absolute; 
-  right: 0px;
+  margin-left: auto;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -263,25 +280,6 @@ body {margin: 0 auto;}
 @media only screen and (min-width: 1200px) {
   
 }
-
-.border
-{
-  border-style: solid;
-  border-width: 1px;
-}
-
-.border-2
-{
-  border-style: solid;
-  border-width: 2px;
-}
-
-.border-3
-{
-  border-style: solid;
-  border-width: 3px;
-}
-.border-none{border: none;}
 
 /*border radius*/
 .radius-1{border-radius: 1px;}
@@ -526,4 +524,68 @@ body {margin: 0 auto;}
   overflow: hidden;
   max-height: 100%;
   transition: all 500ms;
+}
+
+.tooltip{
+  position: relative;
+}
+
+.tooltipTop{
+  visibility: hidden;
+  text-align: center;
+  z-index: 1;
+
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+}
+
+.tooltip:hover .tooltipTop{
+  visibility: visible;
+}
+
+.tooltipRight{
+  visibility: hidden;
+  text-align: center;
+  z-index: 1;
+
+  position: absolute;
+  left: 100%;
+  min-width: 200px;
+}
+
+.tooltip:hover .tooltipRight{
+  visibility: visible;
+}
+
+.tooltipLeft{
+  visibility: hidden;
+  text-align: center;
+  z-index: 1;
+
+  position: absolute;
+  right: 100%;
+  min-width: 200px;
+}
+
+.tooltip:hover .tooltipLeft{
+  visibility: visible;
+}
+
+.tooltipBottom{
+  visibility: hidden;
+  text-align: center;
+  z-index: 1;
+
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+}
+
+.tooltip:hover .tooltipBottom{
+  visibility: visible;
 }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="abmcss/abm.css">
+    </head>
+
+    <body class="max-width-2 mt-5">
+        <!-- NAVBAR -->
+        <div class="row flex-container bg-green-4 radius-5 shadow-3">
+            <div class="col-2 justify-content-center vertical-align-center"><img class="logo" src="images/abmLogo.png"></div>
+            <div class="col-10 justify-content-center vertical-align-center"><span class="fs-xxl text-white">This page is made with ABMCSS</span></div>
+        </div>
+        <!-- NAVBAR -->
+
+        <!-- CONTENT -->
+        <div class="row flex-container">
+            <div class="col-2 justify-content-center">
+                <div id="leftMenu" class="vertical-navbar col-12 mt-10">
+                    <script src="js/menu.js"></script>
+                </div>
+            </div>
+            <div class="col-10 p-10">
+
+                <div class="row">
+                    <span class="fs-xl">
+                        <b>MODALS</b>
+                    </span>
+                </div>
+                <div class="row mt-5">
+                    <span class="fs-l">
+                        Modals are very common way to show users some information. Sometimes this can be images. 
+                        ABMCSS uses <b>hidden checkbox</b> to show user modal. So javascript is not necessary for now.
+                    </span>
+                </div>
+                <hr>
+
+                
+                <label for="modal1" class="p-5 bg-green-2">Open Modal With Text</label>
+                <label for="modal1" class="modal-background"></label>
+                <input type="checkbox" id="modal2">
+                <div class="modal col-3 bg-green-2 p-10 radius-5 fit-content">
+                    <div class="row flex-container">
+                        <div class="col-10">
+                            Modal title
+                        </div>
+                        <div class="col-2 justify-content-center">
+                            <label for="modal1" aria-labelledby="modal1" class="btn-light p-5 fs-lg radius-5 bg-white-3 border-white-3 shadow-2">
+                                Close
+                            </label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt dolorum laborum temporibus ducimus qui, doloribus repellat, rerum itaque libero pariatur ea? Itaque corrupti soluta fugit repudiandae voluptas quaerat recusandae vitae?
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <!-- CONTENT -->
+
+        <!-- FOOTER -->
+        <div class="row flex-container">
+            <div class="col-12 justify-content-center vertical-align-center vh-5 bg-green-4 radius-5 shadow-3">
+                <span> Open source CSS modules made by Ahmet MISIR :D <br/> <a class="text-white" href="template.html">Empty Template</a></span>
+            </div>
+        </div>
+        <!-- FOOTER -->
+    </body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="abmcss/abm.css">
+    </head>
+
+    <body class="max-width-2 mt-5">
+        <!-- NAVBAR -->
+        <div class="row flex-container bg-green-4 radius-5 shadow-3">
+            <div class="col-2 justify-content-center vertical-align-center"><img class="logo" src="images/abmLogo.png"></div>
+            <div class="col-10 justify-content-center vertical-align-center"><span class="fs-xxl text-white">This page is made with ABMCSS</span></div>
+        </div>
+        <!-- NAVBAR -->
+
+        <!-- CONTENT -->
+        <div class="row flex-container">
+            <div class="col-2 justify-content-center">
+                <div id="leftMenu" class="vertical-navbar col-12 mt-10">
+                    <script src="js/menu.js"></script>
+                </div>
+            </div>
+            <div class="col-10 p-10">
+
+                <div class="row">
+                    <span class="fs-xl">
+                        <b>MODALS</b>
+                    </span>
+                </div>
+                <div class="row mt-5">
+                    <span class="fs-l">
+                        &nbsp;&nbsp;&nbsp;Modals are very common way to show users some information. Sometimes this can be images. 
+                        ABMCSS uses <b>hidden checkbox</b> to show user modal. So javascript is not necessary for now.
+                        Also ABMCSS supports multiple modals in one page. Nested modals are supported too.
+                    </span>
+                </div>
+                <div class="row mt-5">
+                    <span class="fs-l">
+                        &nbsp;&nbsp;&nbsp;To create a modal, you need labels and hidden chekbox. A modal have modal trigger, modal background and 
+                        modal inner for contents. You can style modal trigger as ypu wish. For modal inner <b>min widht is 300 px</b> 
+                        and <b>min height is 100 px</b> by default. If your content is bigger than this dimensions, modal inner will
+                        fit itself.
+                    </span>
+                </div>
+                <div class="row mt-5">
+                    <span class="fs-l">
+                        &nbsp;&nbsp;&nbsp;Below you can see some examples.
+                    </span>
+                </div>
+                <hr>
+                <div class="row mt-20">
+                    <span class="fs-l">
+                        <b>Normal Modals</b>
+                    </span>
+                </div>
+                <div class="row mt-5">
+                    <span class="fs-l">
+                        Standard and easy to use. Have a title, close button and content. To see in action, just click modal button.
+                    </span>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="row p-20 border border-black-1 radius-5">
+                        <label class="bg-green-4 p-5 radius-5" for="exampleModal">Open Example Modal</label>
+                        <input type="checkbox" id="exampleModal" class="modalState">
+                        <div class="modal">
+                            <label for="exampleModal" class="modalBackground"></label>
+                            <div class="modalInner bg-green-4 p-5 radius-5">
+                                <div class="row flex-container">
+                                    <div class="col-10">MODAL TITLE</div>
+                                    <div class="col-2 justify-content-center fs-l"><label for="exampleModal">Close</label></div>
+                                </div>
+                                <hr>
+                                <img src="https://i.imgur.com/TPx9zYo.gif" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <textarea class="bg-green-2 row radius-5" wrap="off" rows="15">
+<label class="bg-green-4 p-5 radius-5" for="exampleModal">Open Example Modal</label>
+<input type="checkbox" id="exampleModal" class="modalState">
+<div class="modal">
+    <label for="exampleModal" class="modalBackground"></label>
+    <div class="modalInner bg-green-4 p-5 radius-5">
+        <div class="row flex-container">
+            <div class="col-10">MODAL TITLE</div>
+            <div class="col-2 justify-content-center fs-l"><label for="exampleModal">Close</label></div>
+        </div>
+        <hr>
+        <img src="https://i.imgur.com/TPx9zYo.gif" alt="" />
+    </div>
+</div>
+                        </textarea>
+                    </div>
+                </div>
+
+                <div class="row mt-20">
+                    <span class="fs-l">
+                        <b>Multiple Modals in One Page</b>
+                    </span>
+                </div>
+                <div class="row mt-5">
+                    <span class="fs-l">
+                        &nbsp;&nbsp;&nbsp;Labels are very important for modals. So we will use labels to create multiple modals. For example we need
+                        3 modals in our page. They can be at seperate places too. Modal1, Modal2 and Modal3 their names. So 
+                        we need to use theese names with our modals.
+                    </span>
+                </div>
+                <div class="row mt-5">
+                    <div class="row p-20 radius-5 border border-black-1">
+                        <!-- modal1 -->
+                        <label class="bg-green-4 p-5 radius-5" for="Modal1">Modal 1</label>
+                        <input type="checkbox" id="Modal1" class="modalState">
+                        <div class="modal">
+                            <label for="Modal1" class="modalBackground"></label>
+                            <div class="modalInner bg-green-4 p-10 radius-5">
+                                <div class="row flex-container">
+                                    <div class="col-10">MODAL TITLE</div>
+                                    <div class="col-2 justify-content-center fs-l"><label for="Modal1">Close</label></div>
+                                </div>
+                                <hr>
+                                <h1>MODAL 1</h1>
+                            </div>
+                        </div>
+                        <!-- modal2 -->
+                        <label class="bg-green-4 p-5 radius-5" for="Modal2">Modal 2</label>
+                        <input type="checkbox" id="Modal2" class="modalState">
+                        <div class="modal">
+                            <label for="Modal2" class="modalBackground"></label>
+                            <div class="modalInner bg-green-4 p-10 radius-5">
+                                <div class="row flex-container">
+                                    <div class="col-10">MODAL TITLE</div>
+                                    <div class="col-2 justify-content-center fs-l"><label for="Modal2">Close</label></div>
+                                </div>
+                                <hr>
+                                <h1>MODAL 2</h1>
+                            </div>
+                        </div>
+                        <!-- modal3 -->
+                        <label class="bg-green-4 p-5 radius-5" for="Modal3">Modal 3</label>
+                        <input type="checkbox" id="Modal3" class="modalState">
+                        <div class="modal">
+                            <label for="Modal3" class="modalBackground"></label>
+                            <div class="modalInner bg-green-4 p-10 radius-5">
+                                <div class="row flex-container">
+                                    <div class="col-10">MODAL TITLE</div>
+                                    <div class="col-2 justify-content-center fs-l"><label for="Modal3">Close</label></div>
+                                </div>
+                                <hr>
+                                <h1>MODAL 3</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <textarea class="row bg-green-2 radius-5" wrap="off" rows="45">
+<!-- modal1 -->
+<label class="bg-green-4 p-5 radius-5" for="Modal1">Modal 1</label>
+<input type="checkbox" id="Modal1" class="modalState">
+<div class="modal">
+    <label for="Modal1" class="modalBackground"></label>
+    <div class="modalInner bg-green-4 p-10 radius-5">
+        <div class="row flex-container">
+            <div class="col-10">MODAL TITLE</div>
+            <div class="col-2 justify-content-center fs-l"><label for="Modal1">Close</label></div>
+        </div>
+        <hr>
+        <h1>MODAL 1</h1>
+    </div>
+</div>
+
+<!-- modal2 -->
+<label class="bg-green-4 p-5 radius-5" for="Modal2">Modal 2</label>
+<input type="checkbox" id="Modal2" class="modalState">
+<div class="modal">
+    <label for="Modal2" class="modalBackground"></label>
+    <div class="modalInner bg-green-4 p-10 radius-5">
+        <div class="row flex-container">
+            <div class="col-10">MODAL TITLE</div>
+            <div class="col-2 justify-content-center fs-l"><label for="Modal2">Close</label></div>
+        </div>
+        <hr>
+        <h1>MODAL 2</h1>
+    </div>
+</div>
+
+<!-- modal3 -->
+<label class="bg-green-4 p-5 radius-5" for="Modal3">Modal 3</label>
+<input type="checkbox" id="Modal3" class="modalState">
+<div class="modal">
+    <label for="Modal3" class="modalBackground"></label>
+    <div class="modalInner bg-green-4 p-10 radius-5">
+        <div class="row flex-container">
+            <div class="col-10">MODAL TITLE</div>
+            <div class="col-2 justify-content-center fs-l"><label for="Modal3">Close</label></div>
+        </div>
+        <hr>
+        <h1>MODAL 3</h1>
+    </div>
+</div>
+                        </textarea>
+                    </div>
+                </div>
+
+                <div class="row mt-20">
+                    <span class="fs-l">
+                        <b>Nested Modals</b>
+                    </span>
+                </div>
+                <div class="row mt-5">
+                    <span class="fs-l">
+                        &nbsp;&nbsp;&nbsp;Nested modals are supporte by ABMCSS. Actually they are not things that you will use 
+                        frequently. The basic idea is to place a modal inside other modals inner body. There is an example below for you.
+                    </span>
+                </div>
+                <div class="row mt-5 p-20 border border-black-1">
+                    <!-- Base modal -->
+                    <label class="bg-green-4 p-5 radius-5" for="baseModal">Base Modal</label>
+                    <input type="checkbox" id="baseModal" class="modalState">
+                    <div class="modal">
+                        <label for="baseModal" class="modalBackground"></label>
+                        <div class="modalInner bg-green-4 p-10 radius-5">
+                            <div class="row flex-container">
+                                <div class="col-10">This is the bas modal</div>
+                                <div class="col-2 justify-content-center fs-l"><label for="baseModal">Close</label></div>
+                            </div>
+                            <hr>
+                            Click button to open nested modal.<br /><br />
+                                <!-- nested modal -->
+                                <label class="bg-blue-4 p-5 radius-5" for="nestedModal">Nested Modal</label>
+                                <input type="checkbox" id="nestedModal" class="modalState">
+                                <div class="modal">
+                                    <label for="nestedModal" class="modalBackground"></label>
+                                    <div class="modalInner bg-green-4 p-10 radius-5">
+                                        <div class="row flex-container">
+                                            <div class="col-10">MODAL TITLE</div>
+                                            <div class="col-2 justify-content-center fs-l"><label for="nestedModal">Close</label></div>
+                                        </div>
+                                        <hr>
+                                        <h1>Nested modal</h1>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <textarea class="row bg-green-2 radius-5" wrap="off" rows="30">
+<!-- Base modal -->
+<label class="bg-green-4 p-5 radius-5" for="baseModal">Base Modal</label>
+<input type="checkbox" id="baseModal" class="modalState">
+<div class="modal">
+    <label for="baseModal" class="modalBackground"></label>
+    <div class="modalInner bg-green-4 p-10 radius-5">
+        <div class="row flex-container">
+            <div class="col-10">This is the bas modal</div>
+            <div class="col-2 justify-content-center fs-l"><label for="baseModal">Close</label></div>
+        </div>
+        <hr>
+        Click button to open nested modal.<br /><br />
+            <!-- nested modal -->
+            <label class="bg-blue-4 p-5 radius-5" for="nestedModal">Nested Modal</label>
+            <input type="checkbox" id="nestedModal" class="modalState">
+            <div class="modal">
+                <label for="nestedModal" class="modalBackground"></label>
+                <div class="modalInner bg-green-4 p-10 radius-5">
+                    <div class="row flex-container">
+                        <div class="col-10">MODAL TITLE</div>
+                        <div class="col-2 justify-content-center fs-l"><label for="nestedModal">Close</label></div>
+                    </div>
+                    <hr>
+                    <h1>Nested modal</h1>
+                </div>
+            </div>
+    </div>
+</div>
+                    </textarea>
+                </div>
+        </div>
+        <!-- CONTENT -->
+
+        <!-- FOOTER -->
+        <div class="row flex-container">
+            <div class="col-12 justify-content-center vertical-align-center vh-5 bg-green-4 radius-5 shadow-3">
+                <span> Open source CSS modules made by Ahmet MISIR :D <br/> <a class="text-white" href="template.html">Empty Template</a></span>
+            </div>
+        </div>
+        <!-- FOOTER -->
+    </body>
+</html>

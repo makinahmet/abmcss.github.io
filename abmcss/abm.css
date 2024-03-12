@@ -589,3 +589,57 @@ body {margin: 0 auto;}
 .tooltip:hover .tooltipBottom{
   visibility: visible;
 }
+
+.modalState {
+  display: none;
+}
+
+.modalState:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modalState:checked + .modal .modalInner {
+  top: 0;
+}
+
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  background: rgba(0,0,0, .9);
+  transition: opacity .25s ease;
+  z-index: 9997;
+}
+
+.modalBackground {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: 9998;
+}
+
+.modalInner {
+  transition: top .25s ease;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: auto;
+  height: fit-content;
+  width: fit-content;
+  min-width: 300px;
+  min-height: 100px;
+  z-index: 9999;
+}
+

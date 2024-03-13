@@ -15,11 +15,23 @@
 
         <!-- CONTENT -->
         <div class="row flex-container">
-            <div class="col-2 justify-content-center">
-                <div id="leftMenu" class="vertical-navbar col-12 mt-10">
-                    <script src="js/menu.js"></script>
+            <!-- Side Menu -->
+            <div class="col-2">
+                <div class="hamnav">
+                    <!-- (B) THE HAMBURGER -->
+                    <label for="vertical-hamburger" class="fs-xl">☰</label>
+                    <input type="checkbox" id="vertical-hamburger" class="hamChekbox"/>
+                
+                    <!-- (C) MENU ITEMS -->
+                    <div class="hamitems">
+                        <div id="leftMenu" class="vertical-navbar col-12 mt-10">
+                            <script src="js/menu.js"></script>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
+            <!-- Main Content -->
             <div class="col-10">
             Content
             </div>

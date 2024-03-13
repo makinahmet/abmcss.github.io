@@ -15,11 +15,20 @@
 
         <!-- CONTENT -->
         <div class="row flex-container">
-            <div class="col-2 justify-content-center">
-                <div id="leftMenu" class="vertical-navbar col-12 mt-10">
-                    <script src="js/menu.js"></script>
+            <div class="col-2">
+                <div class="hamnav">
+                    <!-- (B) THE HAMBURGER -->
+                    <label for="vertical-hamburger" class="fs-xl">☰</label>
+                    <input type="checkbox" id="vertical-hamburger" class="hamChekbox"/>
+                
+                    <!-- (C) MENU ITEMS -->
+                    <div class="hamitems">
+                        <div id="leftMenu" class="vertical-navbar col-12 mt-10">
+                            <script src="js/menu.js"></script>
+                        </div>
+                    </div>
                 </div>
-            </div>
+              </div>
             <div class="col-10 p-10">
 
                 <div class="row">
@@ -212,7 +221,7 @@
                         frequently. The basic idea is to place a modal inside other modals inner body. There is an example below for you.
                     </span>
                 </div>
-                <div class="row mt-5 p-20 border border-black-1">
+                <div class="row mt-5 p-20 border border-black-1 radius-5">
                     <!-- Base modal -->
                     <label class="bg-green-4 p-5 radius-5" for="baseModal">Base Modal</label>
                     <input type="checkbox" id="baseModal" class="modalState">

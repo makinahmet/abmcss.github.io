@@ -424,6 +424,14 @@ body {margin: 0 auto;}
   text-decoration: underline;
 }
 
+.vertical-navbar[open] > summary{
+  list-style-type: '\2716';
+}
+
+.vertical-navbar:not([open]) > summary{
+  list-style-type: '\2807';
+}
+
 /* auto contrast text color*/
 .text-contrast{
   background: inherit;
@@ -643,3 +651,23 @@ body {margin: 0 auto;}
   z-index: 9999;
 }
 
+/* [ON BIG SCREEN] */
+/* (A) WRAPPER */
+.hamnav {}
+
+/* (B) HORIZONTAL MENU ITEMS */
+.hamitems { display: flex; }
+
+/* (C) HIDE HAMBURGER */
+.hamnav label, .hamChekbox { display: none; }
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 600px){
+  /* (A) BREAK INTO VERTICAL MENU */
+  /* (B) SHOW HAMBURGER ICON */
+  .hamnav label { display: inline-block; margin: 5px;}
+
+  /* (C) TOGGLE SHOW/HIDE MENU */
+  .hamitems { display: none;}
+  .hamnav input:checked ~ .hamitems { display: block;}
+}

@@ -15,11 +15,20 @@
 
         <!-- CONTENT -->
         <div class="row flex-container">
-            <div class="col-2 justify-content-center">
-                <div id="leftMenu" class="vertical-navbar col-12 mt-10">
-                    <script src="js/menu.js"></script>
+            <div class="col-2">
+                <div class="hamnav">
+                    <!-- (B) THE HAMBURGER -->
+                    <label for="vertical-hamburger" class="fs-xl">☰</label>
+                    <input type="checkbox" id="vertical-hamburger" class="hamChekbox"/>
+                
+                    <!-- (C) MENU ITEMS -->
+                    <div class="hamitems">
+                        <div id="leftMenu" class="vertical-navbar col-12 mt-10">
+                            <script src="js/menu.js"></script>
+                        </div>
+                    </div>
                 </div>
-            </div>
+              </div>
             <div class="col-10 p-10">
                 <div class="row">
                     <span class="fs-xl">
@@ -203,7 +212,7 @@
                 </div>
 
                 <div class="row">
-<textarea class="row bg-green-2 mt-10 radius-5" rows="20" wrap="off">
+<textarea class="row bg-green-2 mt-10 radius-5" rows="15" wrap="off">
 <div class="vertical-navbar mt-10 bg-green-2 col-2 p-10 radius-5">
     <b>HOME</b>
     <a class="text-black" href="index.html">Get Started</a>
@@ -218,13 +227,133 @@
 </div>
 </textarea>
                 </div>
+                <hr>
 
                 <div class="row mt-10">
                     <span class="fs-l">
-                        You can change colors, width, and other things as you wish. Lets add some icons to our links.
+                        <b>Horizontal Hamburger Navbar</b>
+                    </span>
+                </div>
+                <div class="row mt-10">
+                    <span class="fs-l">
+                        You can use hamburger menus with ABMCSS too. It will be useful with mobile devices. Resize screen to see result
                     </span>
                 </div>
 
+                <div class="row mt-10 flex-container vertical-align-center bg-green-2 radius-5">
+                    <!-- Navbar logo or brand -->
+                    <div class="col-2 justify-content-center p-20">
+                        <img class="image navbar-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+                    </div>
+                    <!-- (A) MENU WRAPPER -->
+                    <div class="hamnav col-10">
+                        <!-- (B) THE HAMBURGER -->
+                        <label for="hamburger" class="fs-xl">&#9776;</label>
+                        <input type="checkbox" id="hamburger" class="hamChekbox"/>
+                    
+                        <!-- (C) MENU ITEMS -->
+                        <div class="hamitems">
+                        <!-- Navbar start -->
+                            <div class="row flex-container radius-5 vertical-align-center p-20">
+                                    <!-- Navbar inline menu -->
+                                <div class="col-2 ml-5"><a href="#" class="no-decoration text-black fs-l ml-10">HOME</a></div>
+                                <div class="col-2 ml-5"><a href="#" class="no-decoration text-black fs-l ml-10">ABOUT</a></div>
+                                <div class="col-2 ml-5"><a href="#" class="no-decoration text-black fs-l ml-10">CONTACT</a></div>
+                            </div>
+                            <!-- Navbar end -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-10">
+                    <textarea class="row bg-green-2 radius-5" wrap="off" rows="26">
+<div class="row mt-10 flex-container vertical-align-center bg-green-2 radius-5">
+    <!-- Navbar logo or brand -->
+    <div class="col-2 justify-content-center p-20">
+        <img class="image navbar-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+    </div>
+    <!-- (A) MENU WRAPPER -->
+    <div class="hamnav col-10">
+        <!-- (B) THE HAMBURGER -->
+        <label for="hamburger" class="fs-xl">&#9776;</label>
+        <input type="checkbox" id="hamburger" class="hamChekbox"/>
+    
+        <!-- (C) MENU ITEMS -->
+        <div class="hamitems">
+        <!-- Navbar start -->
+            <div class="row flex-container radius-5 vertical-align-center p-20">
+                    <!-- Navbar inline menu -->
+                <div class="col-2 ml-5"><a href="#" class="no-decoration text-black fs-l ml-10">HOME</a></div>
+                <div class="col-2 ml-5"><a href="#" class="no-decoration text-black fs-l ml-10">ABOUT</a></div>
+                <div class="col-2 ml-5"><a href="#" class="no-decoration text-black fs-l ml-10">CONTACT</a></div>
+            </div>
+            <!-- Navbar end -->
+        </div>
+    </div>
+</div>                        
+                    </textarea>
+                </div>
+                <hr>
+                <div class="row mt-10">
+                    <span class="fs-l">
+                        <b>Vertical Hamburger Navbar</b>
+                    </span>
+                </div>
+                <div class="row mt-10">
+                    <span class="fs-l">
+                        Vertical hamburger navmenus are very useful to show user long menus. Especially admin menus are generallay 
+                        have too many items for management. Resize screen to see result.
+                    </span>
+                </div>
+                <div class="row">
+                    <div class="hamnav">
+                        <!-- (B) THE HAMBURGER -->
+                        <label for="vertical-hamburger" class="fs-xl">&#9776;</label>
+                        <input type="checkbox" id="vertical-hamburger" class="hamChekbox"/>
+                    
+                        <!-- (C) MENU ITEMS -->
+                        <div class="hamitems">
+                            <div class="vertical-navbar mt-10 bg-green-2 col-2 p-10 radius-5">
+                                <b>HOME</b>
+                                <a class="text-black" href="index.html">Get Started</a>
+                                <a class="text-black" href="grids.html">Grids</a>
+                                <a class="text-black" href="colorPallettes.html">Color Pallettes</a>
+                                <hr>
+                                <b>COMPONENTS</b>
+                                <a class="text-black" href="buttons.html">Buttons</a>
+                                <a class="text-black" href="cards.html">Cards</a>
+                                <a class="text-black" href="navbar.html">Navbars</a>
+                                <a class="text-black" href="forms.html">Forms</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-10">
+                    <textarea class="row bg-green-2 radius-5" wrap="off" rows="23">
+<div class="hamnav">
+    <!-- (B) THE HAMBURGER -->
+    <label for="vertical-hamburger" class="fs-xl">&#9776;</label>
+    <input type="checkbox" id="vertical-hamburger" class="hamChekbox"/>
+
+    <!-- (C) MENU ITEMS -->
+    <div class="hamitems">
+        <div class="vertical-navbar mt-10 bg-green-2 col-2 p-10 radius-5">
+            <b>HOME</b>
+            <a class="text-black" href="index.html">Get Started</a>
+            <a class="text-black" href="grids.html">Grids</a>
+            <a class="text-black" href="colorPallettes.html">Color Pallettes</a>
+            <hr>
+            <b>COMPONENTS</b>
+            <a class="text-black" href="buttons.html">Buttons</a>
+            <a class="text-black" href="cards.html">Cards</a>
+            <a class="text-black" href="navbar.html">Navbars</a>
+            <a class="text-black" href="forms.html">Forms</a>
+        </div>
+    </div>
+</div>
+                    </textarea>
+                </div>
+                <hr>
             </div>
         </div>
         <!-- CONTENT -->

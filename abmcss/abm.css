@@ -50,6 +50,12 @@
   text-justify: inter-word;
 }
 
+.text-black{color: black;}
+.text-white{color: white;}
+.text-gray{color: gray;}
+.text-dark-gray{color: darkgray;}
+.text-light-gray{color: lightgray;}
+
 body {margin: 0 auto;}
 
 /*background colors*/
@@ -422,10 +428,6 @@ body {margin: 0 auto;}
   -webkit-filter: contrast(20) grayscale(0.8) invert(1.5);
 }
 
-.text-black{color: black;}
-.text-white{color: white;}
-.text-gray{color: var(--black-3);}
-
 .shadow-1{box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
 .shadow-2{box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
 .shadow-3{box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
@@ -673,7 +675,7 @@ body {margin: 0 auto;}
   .hamnav input:checked ~ .hamitems { display: block;}
 
   .fs-xxs{font-size: 4vw;}
-  .fs-xs{font-size: 4vw;}
+  .fs-xs{font-size: 5vw;}
   .fs-s{font-size: 5vw;}
   .fs-m{font-size: 6vw;}
   .fs-l{font-size: 7vw;}

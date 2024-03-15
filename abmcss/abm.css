@@ -46,6 +46,8 @@
 
 * {
   box-sizing: border-box;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 body {margin: 0 auto;}

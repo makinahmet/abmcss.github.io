@@ -453,11 +453,6 @@ body {margin: 0 auto;}
 
 .card-image{overflow: hidden; padding: 5px;}
 
-.navbar
-{
-  overflow: hidden;
-}
-
 .image
 {
   height: 100%;
@@ -465,6 +460,8 @@ body {margin: 0 auto;}
 }
 
 .overflow-hidden{overflow: hidden;}
+
+/*Form elements*/
 
 .input-text{
   width: 100%;
@@ -487,13 +484,85 @@ body {margin: 0 auto;}
   box-shadow: 0 0 3px 1px gray;
 }
 
-.no-decoration{
-  text-decoration: none;
-}
-
 .form-input{
   width: 15px;
   height: 15px;
+}
+
+/*show hide passwords*/
+.Control-label--showPassword {
+  width: 32px;
+  cursor: pointer;
+}
+
+.show-password {
+  display: none;
+  
+  &:checked {
+    & ~ .ControlInput--password {
+      -webkit-text-security: disc;
+      -moz-text-security: disc; 
+    }
+    
+    & ~ .Control-label--showPassword {
+      .svg-toggle-password {
+        .closed-eye {
+          opacity: 1;
+          transition: opacity 300ms ease, height 400ms ease;
+          width: 4px;
+          height: 44px;
+        }
+      }
+    }
+  }
+}
+
+
+.svg-toggle-password { 
+  .closed-eye {
+    opacity: 0;
+    height: 0;
+  }
+}
+
+.spinner {
+  animation: dash 2s linear infinite;
+  animation-direction: normal;
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 150.6 100.4;
+  }
+  50% {
+    stroke-dasharray: 1 250;
+  }
+  100% {
+    stroke-dashoffset: 502;
+    stroke-dasharray: 150.6 100.4;
+  }
+}
+
+@keyframes spinner-in {
+  0% {
+    opacity: 0;
+  }
+  20%, 80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*******************************/
+
+.no-decoration{text-decoration: none;}
+
+.navbar
+{
+  overflow: hidden;
 }
 
 .stick-top{

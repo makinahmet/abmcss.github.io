@@ -52,11 +52,19 @@ Buttons
 Cards
 </a>
 <a class="text-black" href="collapse.html">
-    <svg fill="#000000" width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+    <svg fill="currentColor" width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
         <path d="M19 9h-2.58l3.29-3.29a1 1 0 1 0-1.42-1.42L15 7.57V5a1 1 0 0 0-1-1 1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 0-2z"/>
         <path d="M10 13H5a1 1 0 0 0 0 2h2.57l-3.28 3.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L9 16.42V19a1 1 0 0 0 1 1 1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1z"/>
     </svg>
 Collapsibles
+</a>
+<a class="text-black" href="carousel.html">
+    <svg fill="currentColor" width="18" height="18" viewBox="0 -7 32 32" id="icon" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22,26H10a2,2,0,0,1-2-2V8a2,2,0,0,1,2-2H22a2,2,0,0,1,2,2V24A2,2,0,0,1,22,26ZM10,8V24H22V8Z"/>
+        <path d="M4,24H0V22H4V10H0V8H4a2,2,0,0,1,2,2V22A2,2,0,0,1,4,24Z"/>
+        <path d="M32,24H28a2,2,0,0,1-2-2V10a2,2,0,0,1,2-2h4v2H28V22h4Z"/>
+    </svg>
+Carousel
 </a>
 <a class="text-black" href="forms.html">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
@@ -66,7 +74,7 @@ Collapsibles
 Forms
 </a>
 <a class="text-black" href="heros.html">
-<svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+<svg fill="currentColor" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
 	 width="16" height="16" viewBox="0 0 234 260" enable-background="new 0 0 234 260" xml:space="preserve">
 <path d="M232.043,157.557L216.22,2l-32.915,51.122c0,0-28.733-21.024-66.301-21.024c-37.577,0-60.744,17.332-60.744,17.332L9.57,2
 	L1.957,157.557h4.675C11.901,213.818,59.385,258,117,258s105.099-44.182,110.368-100.443H232.043z M47.147,109.233

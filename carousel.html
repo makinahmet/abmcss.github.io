@@ -30,92 +30,55 @@
                     </div>
                 </div>
             </div>
-
+            
             <!-- Main Content -->
             <div class="col-10 p-10">
 
+                <div class="row mt-5">
+                    <span class="fs-s">
+                       <b>CAROUSEL</b>
+                    </span>
+                </div>
 
-<style>
+                <div class="row mt-5">
+                    <span class="fs-xs">
+                       Carousel is pure css wiwth ABMCSS. You can add link to slide images. 
+                       What you need to be careful is, you need to give a certain amount height to carousel parent div.
+                    </span>
+                </div>
 
-.carousel {
-  position:relative;
-  overflow: hidden;
-  height: 100%;
-}
+                <hr>
 
-.carousel > a >img {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  height: 100%;
-}
-.carousel > input {
-  position:absolute;
-  left:-9999px;
-}
-.carousel > input:checked + label + a > img {
-  display:block;
-}
-
-.carousel > label,
-.carousel > input:checked ~ label ~ label ~ label ~ label {
-  display:none;
-}
-.carousel > input:checked + label {
-  display:block;
-  left:0;
-  visibility: visible;
-}
-.carousel > input:checked ~ label ~ label ~ label {
-  display:block;
-  right:0;
-}
-
-.carousel > label {
-  position:absolute;
-  top:0;
-  width:25%;
-  height:100%;
-  z-index: 10;
-}
-
-.carousel > label:after {
-  display:block;
-  position:absolute;
-  top:50%;
-  width:40px;
-  height:40px;
-  line-height:37px;
-  margin:-15px 10px 0 10px;
-  font-weight:bold;
-  font-size:25px;
-  text-align:center;
-  border-radius:20px;
-  background-color: white;
-  color: black;
-  z-index: 10;
-  box-shadow:0 2px 2px black;
-}
-
-.carousel > label:active:after {
-  box-shadow:0 3px 4px black;
-}
-
-.carousel > input:checked + label:after {
-  left:0;
-  content:'\00AB';
-}
-.carousel > input:checked ~ label ~ label ~ label:after {
-  right:0;
-  content:'\00BB';
-}
-
-</style>
-
+                <div class="row vh-50">
+                    <div class="carousel shadow-1">
+                        <input id="image1" type="radio" name="image-selector" checked="checked" />
+                        <label for="image5"></label>
+                        <a href="#"><img src="images/slider1.jpg" /></a>
+                
+                        <input id="image2" type="radio" name="image-selector" />
+                        <label for="image1"></label>
+                        <a href="#"><img src="images/slider2.jpg" /></a>
+                
+                        <input id="image3" type="radio" name="image-selector" />
+                        <label for="image2"></label>
+                        <a href="#"><img src="images/slider3.jpg" /></a>
+                
+                        <input id="image4" type="radio" name="image-selector" />
+                        <label for="image3"></label>
+                        <a href="#"><img src="images/slider4.jpg" /></a>
+                
+                        <input id="image5" type="radio" name="image-selector" />
+                        <label for="image4"></label>
+                        <a href="#"><img src="images/slider5.jpg" /></a>
+                
+                        <label for="image5"></label>
+                        <label for="image1"></label>
+                    </div>
+                </div>
+            <div class="row mt-10">
+<textarea class="row bg-green-2 radius-5" wrap="off" rows="27">
 <div class="row vh-50">
-    <div class="carousel">
+    <div class="carousel shadow-1">
         <input id="image1" type="radio" name="image-selector" checked="checked" />
         <label for="image5"></label>
         <a href="#"><img src="images/slider1.jpg" /></a>
@@ -140,11 +103,11 @@
         <label for="image1"></label>
     </div>
 </div>
-  
-
-
-
+</textarea>
+                </div>
+                <hr>
             </div>
+        </div>
         <!-- CONTENT -->
 
         <!-- FOOTER -->

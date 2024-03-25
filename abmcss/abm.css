@@ -829,3 +829,15 @@ z-index: 100;
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}

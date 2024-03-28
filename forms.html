@@ -322,49 +322,17 @@ This is a styled textarea
                     <span class="fs-xs">Toggle switch</span>
                 </div>
                 <div class="row mt-10">
-                    Toggle switches are easy to use with ABMCSS. You can adjust its back and foreground colors. There is some examples below
+                    Toggle is pure html and css with ABMCSS. if you want to adjust colors of it you need to overwrite 
+                    the css code. To change bakcground of it use <b>.toggle{background-color: color;}</b> and to change 
+                    buttons color use <b>.toggle:before {background-color: color;}</b>
                 </div>
 
                 <div class="row mt-10">
-                    <label class="switch bg-red-4"><input type="checkbox" />
-                        <div class="bg-red-1"></div>
-                    </label>
-                    <label class="switch bg-green-4"><input type="checkbox" />
-                        <div class="bg-green-1"></div>
-                    </label>
-                    <label class="switch bg-blue-4"><input type="checkbox" />
-                        <div class="bg-blue-1"></div>
-                    </label>
-                    <label class="switch bg-yellow-4"><input type="checkbox" />
-                        <div class="bg-yellow-1"></div>
-                    </label>
-                    <label class="switch bg-white-4"><input type="checkbox" />
-                        <div class="bg-white-1"></div>
-                    </label>
-                    <label class="switch bg-black-4"><input type="checkbox" />
-                        <div class="bg-black-1"></div>
-                    </label>
+                    <input class="toggle" type="checkbox" />
                 </div>
                 <div class="row mt-10">
-                    <textarea class="row bg-green-2 radius-5" wrap="off" rows="20">
-<label class="switch bg-red-4"><input type="checkbox" />
-    <div class="bg-red-1"></div>
-</label>
-<label class="switch bg-green-4"><input type="checkbox" />
-    <div class="bg-green-1"></div>
-</label>
-<label class="switch bg-blue-4"><input type="checkbox" />
-    <div class="bg-blue-1"></div>
-</label>
-<label class="switch bg-yellow-4"><input type="checkbox" />
-    <div class="bg-yellow-1"></div>
-</label>
-<label class="switch bg-white-4"><input type="checkbox" />
-    <div class="bg-white-1"></div>
-</label>
-<label class="switch bg-black-4"><input type="checkbox" />
-    <div class="bg-black-1"></div>
-</label>
+                    <textarea class="row bg-green-2 radius-5" wrap="off" rows="3">
+<input class="toggle" type="checkbox" />
                     </textarea>
                 </div>
                 <hr>

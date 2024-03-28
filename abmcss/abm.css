@@ -46,14 +46,14 @@
   --white-6 : #616161;
 
   /*dark pallette*/
-  --d-background : #121212;
-  --d-surface : #1D1D1D;
+  --d-background : #333333;
+  --d-surface : #49484D;
   --d-primary : #ED6C05;
   --d-secondary : #03DAC6;
   --d-onBackground : #E2E2E2;
   --d-onSurface : #E2E2E2;
   --d-onPrimary : #E2E2E2;
-  --d-onSecondary: #121212;
+  --d-onSecondary: #403f43;
 }
 
 /*dark theme colors*/

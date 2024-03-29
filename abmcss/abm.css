@@ -812,6 +812,9 @@ z-index: 100;
 .align-col-right{position: relative;}
 .flex-container{display: block;}
 .navbar-logo{max-width: 50%;}
+
+.mobile-visible{display: block;}
+.mobile-invisible{display: none;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -828,6 +831,9 @@ z-index: 100;
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+
+  .mobile-visible{display: none;}
+  .mobile-invisible{display: block;}
 }
 
 .table {

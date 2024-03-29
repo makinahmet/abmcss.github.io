@@ -114,6 +114,9 @@ Tooltips</a>
 <a class="text-black" href="tables.html">
 
 Tables</a>
+<a class="text-black" href="mobileVisibility.html">
+
+Mobile Visibility</a>
 <hr>`;
 
 var leftMenu = document.getElementById("leftMenu");
